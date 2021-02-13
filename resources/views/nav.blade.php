@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand navbar-dark blue-gradient">
+<nav class="navbar navbar-expand navbar-dark light-green">
 
-  <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>Memo</a>
+  <a class="navbar-brand" href="/"><i class="fas fa-feather-alt mr-1"></i>V-CONNECT</a>
 
   <ul class="navbar-nav ml-auto">
 
