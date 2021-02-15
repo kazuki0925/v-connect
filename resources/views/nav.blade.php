@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand navbar-dark light-green">
+<nav class="navbar navbar-expand navbar-dark peach-gradient">
 
-  <a class="navbar-brand" href="/"><i class="fas fa-feather-alt mr-1"></i>V-CONNECT</a>
+  <a class="navbar-brand font-italic" href="/"><i class="fas fa-feather-alt mr-1"></i>V-CONNECT</a>
 
   <ul class="navbar-nav ml-auto">
 
@@ -31,7 +31,7 @@
       </a>
       <div class="dropdown-menu dropdown-menu-right dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
         <button class="dropdown-item" type="button"
-                onclick="location.href=''">
+                onclick="location.href='{{ route("users.show", ["name" => Auth::user()->name]) }}'">
           マイページ
         </button>
         <div class="dropdown-divider"></div>
